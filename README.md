@@ -14,7 +14,6 @@ Built with PHP and MySQL, this project allows adding, viewing, and filtering stu
 * Year: 2025
 * Type: University Lab Project
 
----
 
 ## 🚀 Key Features
 * **CRUD Operations:** Create, read, update, and delete student records using MySQL.
@@ -23,7 +22,6 @@ Built with PHP and MySQL, this project allows adding, viewing, and filtering stu
 * **Modular Structure:** Reusable layout components (`header.php`, `footer.php`).
 * **Simple UI:** Clean interface with a university-themed background.
   
----
 
 ## 🛠️ Tech Stack
 * Backend: PHP
@@ -31,7 +29,6 @@ Built with PHP and MySQL, this project allows adding, viewing, and filtering stu
 * Frontend: HTML5, CSS3
 * Server: Apache (XAMPP)
 
----
 
 ## ⚙️ Installation & Setup
 1.  **Clone the repository:**
