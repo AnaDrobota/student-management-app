@@ -34,17 +34,18 @@ Built with PHP and MySQL, this project allows adding, viewing, and filtering stu
 ---
 
 ## ⚙️ Installation & Setup
-1. Clone the repository  
-   git clone https://github.com/AnaDrobota/student-management-app.git
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/AnaDrobota/student-management-app.git
+    ```
 
-2. Import the database  
-   - Open phpMyAdmin  
-   - Import the database_schema.sql file from the project root
+2.  **Import the Database:**
+    * Open **phpMyAdmin** (`http://localhost/phpmyadmin`).
+    * Import the `database_schema.sql` file located in the project root.
 
-3. Run the application  
-   - Start Apache and MySQL using XAMPP  
-   - Open in browser:  
-     http://localhost/student-management-app/index.php
+3.  **Run the App:**
+    * Open your browser and navigate to:
+        `http://localhost/student-management-app/index.php`
 
 ---
 
