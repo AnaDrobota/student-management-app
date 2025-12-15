@@ -1,95 +1,51 @@
-🎓 Student Management System
+# 🎓 Student Management System
 
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
+A dynamic web application for managing university students and groups.
+Built with PHP and MySQL, this project allows adding, viewing, and filtering students by their academic groups.
 
+---
 
+## 📅 Project Context
+* Course: Web Application Programming
+* Year: 2025
+* Type: University Lab Project
 
+---
 
-A simple web-based application for managing students and study groups, developed as an academic project to demonstrate database design, CRUD operations, and backend logic.
+## 🚀 Key Features
+* **CRUD Operations:** Create, read, update, and delete student records using MySQL.
+* **Dynamic Filtering:** Display students by academic group.
+* **Secure Database Access:** SQL Injection prevention using prepared statements (MySQLi).
+* **Modular Structure:** Reusable layout components (`header.php`, `footer.php`).
+* **Simple UI:** Clean interface with a university-themed background.
+  
+---
 
-📌 Project Overview
+## 🛠️ Tech Stack
+* Backend: PHP
+* Database: MySQL
+* Frontend: HTML5, CSS3
+* Server: Apache (XAMPP)
 
-This project implements a student management system that allows users to:
+---
 
-add new students,
+## ⚙️ Installation & Setup
+1. Clone the repository  
+   git clone https://github.com/AnaDrobota/student-management-app.git
 
-view student lists by group,
+2. Import the database  
+   - Open phpMyAdmin  
+   - Import the database_schema.sql file from the project root
 
-access individual student details,
+3. Run the application  
+   - Start Apache and MySQL using XAMPP  
+   - Open in browser:  
+     http://localhost/student-management-app/index.php
 
-manage data stored in a MySQL relational database.
+---
 
-The application focuses on clean database structure, basic backend logic, and clear separation between data and presentation.
-
-🧩 Features
-
-Create, read, and display student records
-
-Group-based student filtering
-
-MySQL database integration
-
-Structured SQL schema with relationships
-
-Simple and clear PHP backend logic
-
-🗂️ Database Design
-
-The database is designed using relational principles and includes:
-
-a studenti table for student records
-
-a grupa table for grouping students
-
-foreign key relationships between entities
-
-The database schema is available in:
-
-sql/studenti_db.sql
-
-🚀 How to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/AnaDrobota/student-management-system.git
-
-
-Import the database:
-
-Open phpMyAdmin or MySQL Workbench
-
-Import sql/studenti_db.sql
-
-Configure the database connection:
-
-Update database credentials in the PHP files if needed
-
-Run the project:
-
-Place the project in your local server directory (e.g. XAMPP /htdocs)
-
-Open index.php in your browser
-
-🛠️ Technologies Used
-
-Backend: PHP
-
-Database: MySQL
-
-Language: SQL
-
-Environment: Local server (XAMPP / Apache)
-
-🎯 Purpose
-
-This project was developed as part of an academic assignment to practice:
-
-relational database design
-
-SQL queries
-
-backend logic
-
-basic full-stack integration
-
-📌 Academic project – 2024
+Created for University Project – 2025
